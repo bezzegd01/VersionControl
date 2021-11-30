@@ -70,7 +70,16 @@ namespace UserMaintenance {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Utónév.
+        ///   Looks up a localized string similar to Fájlba írás.
+        /// </summary>
+        internal static string Filebairas {
+            get {
+                return ResourceManager.GetString("Filebairas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Keresztnév.
         /// </summary>
         internal static string FirstName {
             get {
@@ -79,7 +88,7 @@ namespace UserMaintenance {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Vezetéknév.
+        ///   Looks up a localized string similar to Teljes név.
         /// </summary>
         internal static string LastName {
             get {
