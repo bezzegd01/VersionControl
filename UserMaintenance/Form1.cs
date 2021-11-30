@@ -26,6 +26,7 @@ namespace UserMaintenance
             listBox1.ValueMember = "ID";
             listBox1.DisplayMember = "FullName";
             btnFajlba.Text = Resource1.Filebairas;
+            btnTorles.Text = Resource1.delete;
 
         }
 
@@ -52,6 +53,13 @@ namespace UserMaintenance
                     }
                 }
             }
+        }
+
+        private void btnTorles_Click(object sender, EventArgs e)
+        {
+            User kivalasztott = new User();
+            kivalasztott = (User)listBox1.SelectedItem;
+            users.Remove(kivalasztott);
         }
     }
 }

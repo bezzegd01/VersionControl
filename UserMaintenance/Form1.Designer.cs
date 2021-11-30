@@ -34,6 +34,7 @@ namespace UserMaintenance
             this.tbLastname = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnFajlba = new System.Windows.Forms.Button();
+            this.btnTorles = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -80,11 +81,22 @@ namespace UserMaintenance
             this.btnFajlba.UseVisualStyleBackColor = true;
             this.btnFajlba.Click += new System.EventHandler(this.btnFajlba_Click);
             // 
+            // btnTorles
+            // 
+            this.btnTorles.Location = new System.Drawing.Point(406, 187);
+            this.btnTorles.Name = "btnTorles";
+            this.btnTorles.Size = new System.Drawing.Size(75, 23);
+            this.btnTorles.TabIndex = 7;
+            this.btnTorles.Text = "button1";
+            this.btnTorles.UseVisualStyleBackColor = true;
+            this.btnTorles.Click += new System.EventHandler(this.btnTorles_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(615, 450);
+            this.Controls.Add(this.btnTorles);
             this.Controls.Add(this.btnFajlba);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.tbLastname);
@@ -104,6 +116,7 @@ namespace UserMaintenance
         private System.Windows.Forms.TextBox tbLastname;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnFajlba;
+        private System.Windows.Forms.Button btnTorles;
     }
 }
 
