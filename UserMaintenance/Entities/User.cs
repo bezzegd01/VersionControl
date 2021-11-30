@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace UserMaintenance.Entities
 {
-    class User
+    public class User
     {
-        public Guid guid { get; set; } = Guid.NewGuid();
+        public Guid ID { get; set; } = Guid.NewGuid();
         public string FirstName { get; set; }
         public string LastName { get; set; }
         
